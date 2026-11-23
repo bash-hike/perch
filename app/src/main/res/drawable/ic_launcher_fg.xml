@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A dial with a play mark: the clock face and the player in one glyph, inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E3E9F2"
+        android:strokeLineCap="round"
+        android:strokeWidth="5"
+        android:pathData="M54,28 A26,26 0 1,1 53.99,28 Z" />
+    <path
+        android:fillColor="#A8C8FF"
+        android:pathData="M48,43 L48,65 Q48,67.4 50.1,66.2 L67,55.2 Q68.9,54 67,52.8 L50.1,41.8 Q48,40.6 48,43 Z" />
+</vector>

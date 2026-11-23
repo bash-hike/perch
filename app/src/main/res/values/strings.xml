@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Perch</string>
+    <string name="channel_show_on_play">Show on the lock screen</string>
+    <string name="notification_now_playing">Now playing</string>
+</resources>
