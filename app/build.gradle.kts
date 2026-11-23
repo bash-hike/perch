@@ -15,8 +15,8 @@ android {
         // Android 15 and up: the design targets that release's edge-to-edge defaults.
         minSdk = 35
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.1.1"
     }
 
     // Release signing comes from the environment (CI) or a git-ignored keystore.properties (local), never

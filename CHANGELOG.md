@@ -8,6 +8,8 @@ The section matching each release tag is published as that release's notes.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-24
+
 ### Added
 - Waking a locked tablet (power button, a tap) while music is playing now shows Perch instead of the plain lock screen.
   It only reacts to a wake that already happened; it never wakes the screen by itself, and it leaves an unlocked tablet alone.
@@ -35,5 +37,6 @@ First release.
 - Perch does not play or decode audio. It reads the media session of the Spotify app on the same tablet and
   needs notification access for that. See [How it works](docs/how-it-works.md).
 
-[Unreleased]: https://github.com/bash-hike/perch/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/bash-hike/perch/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/bash-hike/perch/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/bash-hike/perch/releases/tag/v0.1.0
