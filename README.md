@@ -49,7 +49,7 @@ Built with **[Kotlin](https://kotlinlang.org/)** and **Jetpack Compose** (Materi
   tablet is idle on the charger or dock, including over the lock screen, and it shows the same player and
   clock. A cross leaves it.
 - **After a pause** — the player gives way to the clock after 30 seconds to 5 minutes, as you choose.
-- **Opens itself** — a song starting while the tablet sleeps or sits on the lock screen wakes the screen and
+- **Opens itself** — waking a locked tablet while music plays shows Perch instead of the lock screen, and a song starting while the tablet sleeps or sits on the lock screen wakes the screen and
   shows Perch over it. On by default, never fires while you are using the tablet, and can be switched off.
 - **Any player** — works with anything that publishes a media session, not only Spotify.
 - **Nothing leaves the device** — no network permission, no analytics, no accounts. See the

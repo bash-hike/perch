@@ -51,7 +51,8 @@ full-screen-intent notification, and being the default home app
   the lock screen. It needs no permission. Android does not run screen savers on battery.
 - **Opening automatically** covers the battery case and the screen-off case: when a song starts while the tablet
   is asleep or on the lock screen, Perch posts one silent notification carrying a *full-screen intent*, which makes
-  Android wake the screen and show Perch over the lock screen. It needs the notification permission and the
+  Android wake the screen and show Perch over the lock screen. The same notification is posted when the screen comes on
+  by itself (power button, a tap) while music plays and the device is locked, so the lock screen is replaced by Perch. It needs the notification permission and the
   user-granted "full screen notifications" switch. Since Android 14 that switch is enabled by default only
   for calling and alarm apps ([AOSP](https://source.android.com/docs/core/permissions/fsi-limits)), which is why Perch asks you to switch it on once.
 

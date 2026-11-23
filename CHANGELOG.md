@@ -8,6 +8,10 @@ The section matching each release tag is published as that release's notes.
 
 ## [Unreleased]
 
+### Added
+- Waking a locked tablet (power button, a tap) while music is playing now shows Perch instead of the plain lock screen.
+  It only reacts to a wake that already happened; it never wakes the screen by itself, and it leaves an unlocked tablet alone.
+
 ## [0.1.0] - 2026-11-24
 
 First release.

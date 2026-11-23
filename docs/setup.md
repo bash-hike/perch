@@ -26,7 +26,9 @@ list opens the app.
 **Open Perch automatically** is on by default. Right after media access is on, Perch asks once for the notification
 permission and then opens the "full screen notifications" switch for you to turn on (sideloaded installs already
 have it on). After that, a song starting while the tablet sleeps or sits on the lock screen wakes the screen and
-shows Perch over it. It does nothing while you are using the tablet. If a permission is still missing, the settings
+shows Perch over it, and waking a locked tablet (power button, a tap) while music is playing shows Perch instead of the
+lock screen; Perch never wakes the screen on its own in that case. To unlock, press Back or Home and swipe as usual.
+It does nothing while you are using the tablet. If a permission is still missing, the settings
 sheet says which and has a button for it; the switch there turns the feature off.
 
 ## Keep Spotify alive

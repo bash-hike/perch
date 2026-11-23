@@ -67,7 +67,7 @@ fun SettingsSheet(
             Section("When music starts")
             SwitchRow(
                 "Open Perch automatically",
-                "Wakes the screen and shows Perch, even over the lock screen, when a song starts on a sleeping or locked tablet. Never while you are using it.",
+                "Shows Perch over the lock screen when a song starts on a sleeping or locked tablet, and when you wake a locked tablet while music plays. Never while you are using it.",
                 settings.openOnPlay,
             ) { v -> onChange { copy(openOnPlay = v) } }
             if (settings.openOnPlay && !setup.notificationsAllowed) {
